@@ -11,20 +11,20 @@ const Cert = mongoose.model('Cert', new mongoose.Schema({
     issuer: { type: String }
 }))
 
-function CertCreateByMongoose(certReq) {
+function CertCreate(certReq) {
     return Cert.create(certReq)
 }
 
-function CertViewByMongoose() {
+function CertView() {
 
 }
 
-function CertDeleteByMongoose() {
+function CertDelete() {
 
 }
 
 module.exports = {
-    CertCreateByMongoose,
-    CertViewByMongoose,
-    CertDeleteByMongoose
+    CertCreate,
+    CertView,
+    CertDelete
 }

@@ -1,8 +1,8 @@
 // 使用lowdb数据库
-const lowdb = require('../dbutils/lowdb')
+const lowdb = require('../utils/lowdb')
 
 module.exports = {
-    Create: lowdb.CertCreateByLowdb,
-    View: lowdb.CertViewByLowdb,
-    Delete: lowdb.CertDeleteByLowdb
+    Create: lowdb.CertCreate,
+    View: lowdb.CertView,
+    Delete: lowdb.CertDelete
 }

@@ -6,7 +6,7 @@
 
 ### Back-end
 
-- service: node + express + mogoose
+- service: node + express + (mogoose) -> (lowdb)
 
 ### DB
 
@@ -21,3 +21,4 @@ docker run -itd --name mongodb -p 27017:27017 -v /mnt/dtt/data/mongodb:/data/db 
 
 - 3. lowdb
   - [学习Lowdb小型本地JSON数据库](https://www.cnblogs.com/tugenhua0707/p/11403202.html)
+  - [探索轻量级JSON数据库：LowDB详解与实战](https://www.showapi.com/news/article/66ec3f9e4ddd79f11a0fe243)
