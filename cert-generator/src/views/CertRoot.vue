@@ -56,7 +56,7 @@ const item = {
   name: 'Tom',
   address: 'No. 189, Grove St, Los Angeles',
 }
-const tableData = ref(Array.from({ length: 10 }).fill(item))
+const tableData = ref(Array.from({ length: 5 }).fill(item))
 </script>
 
 <style scoped>
