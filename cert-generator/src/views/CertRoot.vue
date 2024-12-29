@@ -18,11 +18,11 @@
 import { ElMessage, ElMessageBox } from 'element-plus'
 
 const handleDetail = () => {
-  ElMessage({
-    showClose: true,
-    message: 'Oops, handleDetail',
-    type: 'success',
-  })
+    ElMessage({
+        showClose: true,
+        message: 'Oops, handleDetail',
+        type: 'success',
+    })
 }
 
 const handleDelete = () => {
@@ -52,9 +52,9 @@ const handleDelete = () => {
 import { ref } from 'vue'
 
 const item = {
-  date: '2016-05-02',
-  name: 'Tom',
-  address: 'No. 189, Grove St, Los Angeles',
+    date: '2016-05-02',
+    name: 'Tom',
+    address: 'No. 189, Grove St, Los Angeles',
 }
 const tableData = ref(Array.from({ length: 5 }).fill(item))
 </script>

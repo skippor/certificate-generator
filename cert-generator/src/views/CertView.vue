@@ -61,9 +61,9 @@ const handleDelete = () => {
 import { ref } from 'vue'
 
 const item = {
-  date: '2016-05-02',
-  name: 'Tom',
-  address: 'No. 189, Grove St, Los Angeles',
+    date: '2016-05-02',
+    name: 'Tom',
+    address: 'No. 189, Grove St, Los Angeles',
 }
 const tableData = ref(Array.from({ length: 10 }).fill(item))
 </script>
