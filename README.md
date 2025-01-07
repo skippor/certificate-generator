@@ -25,13 +25,18 @@
 
 ### nodejs
 
-- 1. node-forge
+- 1. element plus
+  - [element组件](https://element.eleme.cn/#/zh-CN/component/installation)
+  - [element plus组件](https://element-plus.org/zh-CN/component/overview.html)
+
+- 2. node-forge
   - [给localhost颁发一份证书](https://blog.sww.moe/post/certificate/)
   - [笔记记录：NodeJS生成本地证书](https://juejin.cn/post/7212940154381484087)
 
-- 2. element plus
-  - [element组件](https://element.eleme.cn/#/zh-CN/component/installation)
-  - [element plus组件](https://element-plus.org/zh-CN/component/overview.html)
+- 3. pem: wrapper for openssl cmds
+  - [Create private keys and certificates with node.js](https://github.com/Dexus/pem/tree/master)
+  - [npm-pem](https://www.npmjs.com/package/pem)
+
 
 ### 证书签发
 
@@ -69,18 +74,22 @@
 
 ### 证书链下载
 
+```
 =====SM2证书链=====
 RCA[根]	下载
 OCA[中间]	下载
 PEM[根+中间]	下载
 PKCS#7[根+中间]	下载
+
 =====RSA证书链=====
 RCA[根]	下载
 OCA[中间]	下载
 PEM[根+中间]	下载
 PKCS#7[根+中间]	下载
+
 =====ECC证书链=====
 RCA[根]	下载
 OCA[中间]	下载
 PEM[根+中间]	下载
 PKCS#7[根+中间]	下载
+```
